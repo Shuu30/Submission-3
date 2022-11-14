@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(178deg, #000000, #b4afaf);
+    background-size: 400% 400%;
+    -webkit-animation: darkcss 0s ease infinite;
+    -moz-animation: darkcss 0s ease infinite;
+    animation: darkcss 0s ease infinite;
+}
+
+;
+
+@-webkit-keyframes darkcss {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+@-moz-keyframes darkcss {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+@keyframes darkcss {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
+
+.last-update{
+    color:white;
+    text-align: center;
+}
+.navbar{
+    background-color: #000000;
+    color: white;
+}
+h2 {
+    color: white;
+}
+.opening h1 {
+    color: white;
+}
+
+.emot-img-size img {
+    height: 130px;
+    width: 120px;
+}
+
+.card-text {
+    color: white;
+}
+.new-update {
+    color:white;
+}
+.bg-black{
+    background-color: #FF000000;
+}
+.card {
+    border-color: #FF8888;
+    border-style: none;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 500px;
+    overflow: auto;
+}
+.panel-header{
+    background-color: #3f9fff;
+}
+.suzume-movie {
+    color: rgb(255, 166, 0);
+}
+.jujutsu-movie{
+    color: rgb(255, 166, 0);
+}
+.yuru-movie{
+    color: rgb(255, 166, 0);
+}
+.evangelion-movie{
+    color: rgb(255, 166, 0);
+}
+.bsd-movie{
+    color: rgb(255, 166, 0);
+}
+.one_movie{
+    color: rgb(255, 166, 0);
+}
+footer h4{
+    height:50px;
+    padding-top: 10px;
+}
