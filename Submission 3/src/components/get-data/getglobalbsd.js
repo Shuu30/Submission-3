@@ -1,6 +1,6 @@
 function getglobalbsd(){
 
-    const getDataDogs = fetch('https://gowatch.p.rapidapi.com/lookup/title/tmdb_id')
+    const getDataDogs = fetch('https://covid19.mathdro.id/api')
         .then(results => results.json())
         .then(results => {
             const bungou = document.querySelector('.bsd-movie');
